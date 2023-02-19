@@ -35,8 +35,7 @@ truffle test
 1. Clone Repository:
 
    ```
-   git clone https://github.com/myanzik/Certify.git
-   cd Certify
+   git clone git@github.com:myanzik/ecert.git
    ```
 
 2. install dependencies:
@@ -81,10 +80,10 @@ truffle test
    Note: If you have real ether in your wallet never upload mnemonic key or private key.
    you can put it in .env and export it to truffle-config.js
 
-2. Run truffle deploy --network ropsten
+2. Run truffle deploy --network mumbai
 
    ```
-   truffle deploy --network ropsten
+   truffle deploy --network mumbai
    ```
 
 3. update the smart contract address in src/app.js
