@@ -4,7 +4,6 @@ const moment = require('moment');
 const watchProvider = require('./provider.helper');
 const generateHash = require('./hash.helper');
 
-
 const source = require('../../build/contracts/Certifyi.json');
 
 let instance = null
