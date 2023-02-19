@@ -1,7 +1,6 @@
 const arrayBufferToBuffer = require('arraybuffer-to-buffer');
 const {sha3} = require('ethereumjs-util');
 
-
 function fileToBuffer (file) {
     return new Promise(function (resolve, reject) {
       const reader = new FileReader()
